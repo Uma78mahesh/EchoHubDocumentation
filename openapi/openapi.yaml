@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   version: 1.0.0
-  title: ECHO HUB 1.o Doucmentation
+  title: ECHO HUB 1.0 Documentation
   termsOfService: 'https://example.com/terms/'
   contact:
     email: contact@example.com
