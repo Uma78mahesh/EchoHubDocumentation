@@ -7,7 +7,8 @@ post:
     This endpoint allows the API user to create a Provider Payee Record in the
     Medical Payment Exchange (MPX) platform.  
 
-    
+    The Provider is identified with a Tax ID and a Payee Contact Key along with
+    the other details like name and address.
   requestBody:
     description: |
       This endpoint is used to create the Provider Payee Contact Key. 
