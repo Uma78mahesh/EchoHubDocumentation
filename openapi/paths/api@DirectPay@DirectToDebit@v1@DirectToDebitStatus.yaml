@@ -9,11 +9,11 @@ post:
     content:
       application/json:
         schema:
-          $ref: ..\components\schemas\DirectToDebitPaymentStatus.yaml
+          $ref: ../components/schemas/DirectToDebitPaymentStatus.yaml
   responses:
     '200':
       description: Success
       content:
         application/json:
           schema:
-            $ref: ..\components\schemas\DirectToDebitPaymentResponseStatus.yaml
+            $ref: ../components/schemas/DirectToDebitPaymentResponseStatus.yaml
