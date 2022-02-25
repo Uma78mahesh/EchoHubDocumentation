@@ -20,7 +20,7 @@ post:
     content:
       application/json:
         schema:
-          $ref: ..\components\schemas\DeluxePayeeEcheckRequest.yaml
+          $ref: ../components/schemas/DeluxePayeeEcheckRequest.yaml
   responses:
     '200':
       description: Success
