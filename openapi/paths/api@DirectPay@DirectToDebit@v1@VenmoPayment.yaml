@@ -9,11 +9,11 @@ post:
     content:
       application/json:
         schema:
-          $ref: ..\components\schemas\VenmoPaymentCreate.yaml
+          $ref: ../components/schemas/VenmoPaymentCreate.yaml
   responses:
     '200':
       description: Success
       content:
         application/json:
           schema:
-            $ref: ..\components\schemas\VenmoPaymentResponse.yaml
+            $ref: ../components/schemas/VenmoPaymentResponse.yaml
