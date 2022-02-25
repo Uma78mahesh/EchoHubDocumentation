@@ -9,7 +9,7 @@ post:
     content:
       application/json:
         schema:
-          $ref: ..\components\schemas\VCPRealTimerequest.yaml
+          $ref: ../components/schemas/VCPRealTimerequest.yaml
   responses:
     '200':
       description: Success
