@@ -9,7 +9,7 @@ post:
     content:
       application/json:
         schema:
-          $ref: ..\components\schemas\selectPaypaymentrequest.yaml
+          $ref: ../components/schemas/selectPaypaymentrequest.yaml
   responses:
     '200':
       description: Success
