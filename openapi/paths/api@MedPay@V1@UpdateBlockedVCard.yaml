@@ -17,7 +17,7 @@ post:
     content:
       application/json:
         schema:
-          $ref: ..\components\schemas\MedpayUpdateBlockedVCardRequests.yaml
+          $ref: ../components/schemas/MedpayUpdateBlockedVCardRequests.yaml
   responses:
     '200':
       description: Success
