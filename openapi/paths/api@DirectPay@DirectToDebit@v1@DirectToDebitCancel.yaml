@@ -16,4 +16,4 @@ post:
       content:
         application/json:
           schema:
-            $ref: ..\components\schemas\DirectToDebitPaymentResponseCancel.yaml
+            $ref: ../components/schemas/DirectToDebitPaymentResponseCancel.yaml
