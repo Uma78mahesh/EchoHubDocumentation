@@ -15,7 +15,7 @@ post:
     content:
       application/json:
         schema:
-          $ref: ..\components\schemas\DeluxePayeeEcheckCancelRequest.yaml
+          $ref: ../components/schemas/DeluxePayeeEcheckCancelRequest.yaml
   responses:
     '200':
       description: Success
