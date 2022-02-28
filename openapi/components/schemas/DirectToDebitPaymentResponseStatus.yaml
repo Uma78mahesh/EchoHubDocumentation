@@ -1,6 +1,6 @@
 type: object
 properties:
-  This is the Response for response code 001:
+  This is the Response for response code 001: 
     type: object
     properties:
       ReponseCode:
