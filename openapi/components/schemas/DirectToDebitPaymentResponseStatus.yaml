@@ -218,4 +218,4 @@ properties:
             description: Transaction Number
           EchoHubTransactionId:
             type: string
-            description: EchoHub Transaction Number
+            description: EchoHub Transaction Number 
