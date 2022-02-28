@@ -5,7 +5,7 @@ properties:
     properties:
       ReponseCode:
         type: string
-        description: Response Code 001
+        description: Response Code 001 
       ReponseCodeDesc:
         type: string
         description: Succesful Transaction
