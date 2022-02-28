@@ -1,16 +1,16 @@
 post:
   tags:
-    - DirectToDebit
+    - Direct To Debit
   summary: Direct To Debit Payment Status
   description: | 
    This endpoint allows the API user to know the status of the Direct to Debit Payment.  
    The status of the Direct to Debit payment can be: 
    * Submitted
    * Pending
-   *	Rejected
-   *	Returned
-   *	Cancelled
-   *	Pickup Ready
+   * Rejected
+   * Returned
+   * Cancelled
+   * Pickup Ready
   
   operationId: DirectToDebitStatus
   requestBody:

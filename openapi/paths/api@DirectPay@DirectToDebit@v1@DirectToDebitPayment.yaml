@@ -1,6 +1,6 @@
 post:
   tags:
-    - DirectToDebit
+    - Direct To Debit
   summary: Direct To Debit Payment Create
   description: | 
    This endpoint allows the API user to create a payment to the Provider.  
