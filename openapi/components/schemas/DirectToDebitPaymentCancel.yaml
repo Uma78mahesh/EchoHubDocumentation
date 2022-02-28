@@ -5,10 +5,10 @@ type: object
 properties:
   RequestValueType:
     type: string
-    description: Payor ReferencedId
+    description: This is the Payer Reference ID. 
     maxLength: 150
     minLength: 1
   RequestValue:
     type: string
-    description: Payment Library
+    description: This is the request value.
     maxLength: 100
