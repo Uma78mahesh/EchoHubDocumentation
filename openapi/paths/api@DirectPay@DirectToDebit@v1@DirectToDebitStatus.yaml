@@ -6,6 +6,7 @@ post:
    This endpoint allows the API user to know the status of the Direct To Debit Payment.  
    The status of the Direct To Debit payment can be: 
    * Submitted
+   * Success
    * Pending
    * Rejected
    * Returned

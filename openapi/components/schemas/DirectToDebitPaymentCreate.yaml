@@ -15,7 +15,7 @@ type: object
 properties:
   PayerReferenceID:
     type: string
-    description: This is the Payer Reference ID.
+    description: This is the Payer Reference ID. The Payer transaction is identified with their Payer Reference ID.
     maxLength: 150
     minLength: 1
   Email:
@@ -37,11 +37,11 @@ properties:
     maxLength: 100
   NameonCard:
     type: string
-    description: This is the name of the Provider on the card.
+    description: This is the name of the Payee on the card.
     maxLength: 80
   PayAmount:
     type: string
-    description: This is the amount to be paid by the Payee.
+    description: This is the amount to be paid to the Payee.
   CardNumber:
     type: string
     description: This is the unique 16-digit number on the card.
