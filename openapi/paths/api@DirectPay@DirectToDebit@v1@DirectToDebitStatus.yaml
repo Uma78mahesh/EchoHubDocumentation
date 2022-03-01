@@ -3,8 +3,8 @@ post:
     - Direct To Debit
   summary: Direct To Debit Payment Status
   description: | 
-   This endpoint allows the API user to know the status of the Direct to Debit Payment.  
-   The status of the Direct to Debit payment can be: 
+   This endpoint allows the API user to know the status of the Direct To Debit Payment.  
+   The status of the Direct To Debit payment can be: 
    * Submitted
    * Pending
    * Rejected
@@ -14,7 +14,7 @@ post:
   
   operationId: DirectToDebitStatus
   requestBody:
-    description: This endpoint is used to know the status of the Direct to Debit Payment.
+    description: This endpoint is used to know the status of the Direct To Debit Payment.
     required: true
     content:
       application/json:

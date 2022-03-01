@@ -3,11 +3,11 @@ post:
     - Direct To Debit
   summary: Direct To Debit Payment Cancel
   description: | 
-   This endpoint allows the API User to cancel a Direct to Debit payment.  
-   The payee can opt out of Direct to debit and enroll in another payment type.
+   This endpoint allows the API User to cancel a Direct To Debit Payment.  
+   The Payee can opt out of Direct To Debit and enroll in another payment type.
   operationId: DirectToDebitCancel
   requestBody:
-    description: This endpoint is used to cancel a Direct to Debit Payment.
+    description: This endpoint is used to cancel a Direct To Debit Payment.
     required: true
     content:
       application/json:
