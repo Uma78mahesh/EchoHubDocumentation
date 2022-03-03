@@ -10,5 +10,6 @@ properties:
     minLength: 1
   RequestValue:
     type: string
-    description: Payment Library
+    description: This is the Payment ID for which the Payment has to be cancelled.
+
     maxLength: 100
