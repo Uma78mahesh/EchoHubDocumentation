@@ -3,8 +3,10 @@ post:
     - Venmo
   summary: Venmo Payment Cancel
   operationId: VenmoCancel
+  description: |
+   This endpoint allows the API User to cancel a Venmo Payment. It requires the unique Payer Reference ID.
   requestBody:
-    description: Optional description in *Markdown*
+    description: This endpoint is used to cancel a Venmo Payment.
     required: true
     content:
       application/json:

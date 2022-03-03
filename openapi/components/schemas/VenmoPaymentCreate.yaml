@@ -1,5 +1,5 @@
 required:
-  - PayorReferenceId
+  - PayerReferenceId
   - Email
   - Mobile
   - PayeeFirstName
@@ -13,27 +13,27 @@ required:
   - ZipCode
 type: object
 properties:
-  PayorReferencedId:
+  PayerReferencedId:
     type: string
-    description: Payor ReferencedId
+    description: This is the Payer Reference ID. The Payer transaction is identified with their Payer Reference ID.
     maxLength: 150
     minLength: 1
   Email:
     type: string
-    description: Email
+    description: This is the email ID of the Payee.
     pattern: ^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$
     maxLength: 100
   Mobile:
     type: string
-    description: Mobile
+    description: This is the mobile number of the Payee.
     maxLength: 10
   PayeeFirstName:
     type: string
-    description: Payee First Name
+    description: This is the first name of the Payee.
     maxLength: 100
   PayeeLastName:
     type: string
-    description: Payee Last Name
+    description: This is the last name of the Payee.
     maxLength: 100
   NameonCard:
     type: string
@@ -41,7 +41,7 @@ properties:
     maxLength: 80
   PayAmount:
     type: string
-    description: Pay Amount
+    description: This is the amount to be paid to the Payee.
   CardNumber:
     type: string
     description: CardNumber
@@ -62,12 +62,12 @@ properties:
     pattern: ^(0|[1-9][0-9]*)$
   Address:
     type: string
-    description: Address
+    description: It is the address associated with the checking account.
     maxLength: 50
     minLength: 1
   ZipCode:
     type: integer
-    description: ZipCode
+    description: This is the zip code of the address associated with the checking account.
     pattern: ^(0|[1-9][0-9]*)$
     maxLength: 9
     minLength: 5

@@ -83,4 +83,12 @@ tags:
       * Direct To Debit payment create
       * Direct To Debit payment status
       * Direct To Debit payment cancel
-      
+  
+  - name: Venmo
+    description: |
+     Venmo is a payment app available on iPhones and Android phones that allows for the quick and easy exchange of money. A user with a Venmo account can transfer funds to the Payee bank account without needing cash or checks. Venmo account can be linked to credit card, debit card, or checking accounts. Venmo is more like a digital wallet where funds are held as a Venmo balance in the checking account.  
+     Venmo has three endpoints:
+      *	Venmo payment create
+      *	Venmo payment status
+      *	Venmo payment cancel
+
