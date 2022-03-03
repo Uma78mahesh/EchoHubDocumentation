@@ -6,11 +6,11 @@ properties:
   RequestValueType:
     type: string
     description: 
-      This is the Payer Reference ID. The Payer transaction is identified with their Payer Reference ID.
+      The value for this field can be either Payer Reference ID or ECHOHub Transaction ID
        
     maxLength: 150
     minLength: 1
   RequestValue:
     type: string
-    description: This is the request value.
+    description: The Payment ID for which the Payment has to be cancelled.
     maxLength: 100

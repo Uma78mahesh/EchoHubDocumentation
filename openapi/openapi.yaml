@@ -78,7 +78,7 @@ tags:
 
   - name: Direct To Debit
     description: |
-     Direct To Debit is the simplest and most convenient way to make payments. It is a type of pre-authorized payment which allows a bank to pay certain amount directly to the provider with a debit card. With Direct To Debit payments, the money is directly transferred to the card holder.  
+     Direct To Debit is the simplest and most convenient way to make payments. It is a type of pre-authorized payment which allows a bank to pay certain amount directly to the Provider with a debit card. With Direct To Debit payments, the money is directly transferred to the card holder.  
      Direct To Debit has three endpoints:
       * Direct To Debit payment create
       * Direct To Debit payment status
