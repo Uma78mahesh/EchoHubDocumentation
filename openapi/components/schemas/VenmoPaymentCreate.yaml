@@ -13,7 +13,7 @@ required:
   - ZipCode
 type: object
 properties:
-  PayerReferencedId:
+  PayorReferencedId:
     type: string
     description: This is the Payer Reference ID. The Payer transaction is identified with their Payer Reference ID.
     maxLength: 150
