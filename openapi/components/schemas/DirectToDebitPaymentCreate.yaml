@@ -10,12 +10,12 @@ required:
   - ExpireMonth
   - Address
   - ZipCode
-  - PayerReferenceID
+  - PayorReferenceID
 type: object
 properties:
   PayorReferenceID:
     type: string
-    description: This is the Payer Reference ID. The Payer transaction is identified with their Payer Reference ID.
+    description: This is the Payor Reference ID. The Payor transaction is identified with their Payor Reference ID.
     maxLength: 150
     minLength: 1
   Email:

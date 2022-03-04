@@ -10,7 +10,8 @@ post:
     *	Success
     *	Pending
     *	Rejected
-    *	Returned                                                                                                                                                                                                                                                                                                                                
+    *	Returned 
+    * Refunded                                                                                                                                                                                                                                                                                                                               
     *	Cancelled
     *	Pickup Ready
 
