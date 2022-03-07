@@ -1,0 +1,20 @@
+post:
+  tags:
+    - Universal Payment Void
+  summary: Universal Payment Void - Deluxe
+  operationId: UniversalPaymentDeluxeVoid
+  description: Universal Payment Void Deluxe
+  requestBody:
+    description: This endpoint is used to Void the eCheck
+    required: true
+    content:
+      application/json:
+        schema:
+          $ref: ../../components/schemas/UniversalVoid/Request/UniversalDeluxeVoid.yaml
+  responses:
+    '200':
+      description: Success
+      content:
+        application/json:
+          schema:
+            $ref: ../../components/schemas/UniversalVoid/Response/UniversalDeluxeResponseVoid.yaml

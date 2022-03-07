@@ -20,7 +20,7 @@ properties:
             description: Response for Payment response code 001
           PaymentResponseCodeDesc:
             type: string
-            description: Deluxe Cancel Payment Successful
+            description: Venmo Status Payment Successful
           TransactionID:
             type: integer
             description: TransactionID
