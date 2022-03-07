@@ -5,10 +5,10 @@ type: object
 properties:
   RequestValueType:
     type: string
-    description: The value for this field can be either Payer Reference ID or ECHOHub Transaction ID
+    description: The request value type for this field can be either PayorReferenceId or ECHOHubTransactionId.
     maxLength: 150
     minLength: 1
   RequestValue:
     type: string
-    description: The Payment ID for which the status has to be checked.
+    description: This is the value for PayorReferenceId or ECHOHubTransactionId.
     maxLength: 100

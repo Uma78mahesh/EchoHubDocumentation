@@ -3,8 +3,20 @@ post:
     - Venmo
   summary: Venmo Payment Status
   operationId: VenmoStatus
+  description: |
+   This endpoint allows the API user to know the status of the Venmo Payment.
+   The status of the Venmo payment can be:
+    *	Submitted
+    *	Success
+    *	Pending
+    *	Rejected
+    *	Returned 
+    * Refunded                                                                                                                                                                                                                                                                                                                               
+    *	Cancelled
+    *	Pickup Ready
+
   requestBody:
-    description: Optional description in *Markdown*
+    description: This endpoint is used to know the status of the Venmo Payment.
     required: true
     content:
       application/json:
