@@ -10,7 +10,6 @@ info:
     Authentication is a process by which a system verifies the identity of a
     user accessing this API.       
 
-
     <!-- ReDoc-Inject: <security-definitions> -->
   version: v1
   termsOfService: https://example.com
