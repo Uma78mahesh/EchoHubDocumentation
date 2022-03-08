@@ -93,7 +93,7 @@ tags:
       checking account.  
 
       Money is transferred over the ACH (Automated Clearing House) network and
-      deposited into the Payee’s checking account.
+      deposited into the Payee's checking account.
 
   - name: Direct To Debit
     description: |

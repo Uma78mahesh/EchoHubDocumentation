@@ -1,9 +1,7 @@
 required:
   - RequestValueType
   - RequestValue
-  - ForceFlag
-  - TransactionID
-  - CheckingAccountID
+  - Action
   - LibraryMethod
 type: object
 properties:
@@ -11,20 +9,16 @@ properties:
     type: string
     description: >-
       Value for this field should be one of the following items : 
-      PayorReferenceID or EchoHubTranscationID
+      DraftNumber or CardNumberToken or PayeeCheckClaimNumber or ClaimNumber or PayHubPaymentId
   RequestValue:
     type: string
     description: Request Value
     minLength: 2
-  ForceFlag:
-    type: boolean
-    description: Force Flag
-  TransactionID:
-    type: integer
-    description: Transaction ID
-  CheckingAccountID:
-    type: integer
-    description: CheckingAccount ID
+  Action:
+    type: string
+    description: >-
+      Value for this field should be one of the following items : 
+      Status or Transaction
   LibraryMethod:
     type: string
     description: Library Method should be 'VCPStatus'

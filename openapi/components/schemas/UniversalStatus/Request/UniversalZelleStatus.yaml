@@ -1,9 +1,6 @@
 required:
   - RequestValueType
   - RequestValue
-  - ForceFlag
-  - TransactionID
-  - CheckingAccountID
   - LibraryMethod
 type: object
 properties:
@@ -16,15 +13,6 @@ properties:
     type: string
     description: Request Value
     minLength: 2
-  ForceFlag:
-    type: boolean
-    description: Force Flag
-  TransactionID:
-    type: integer
-    description: Transaction ID
-  CheckingAccountID:
-    type: integer
-    description: CheckingAccount ID
   LibraryMethod:
     type: string
     description: Library Method should be 'ZelleStatus'
